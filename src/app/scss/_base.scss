@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Catamaran:wght@400;700&family=Edu+QLD+Beginner:wght@600;700&family=Edu+VIC+WA+NT+Beginner:wght@400;600&family=Exo+2:wght@400;600&family=Neucha&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Catamaran', sans-serif;
+}
+
+.btn {
+  padding: 0px 10px;
+  border-radius: 2px;
+  width: 170px;
+  height: 32px;
+  background-color: var(--btn-color);
+  color: var(--white-color);
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
