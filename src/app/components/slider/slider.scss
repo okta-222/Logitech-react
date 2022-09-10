@@ -1,42 +1,40 @@
 .main-slide {
-    background-color: #1e1e1e ;
-    height: 340px;
-    position: relative;
+  background-color: #1e1e1e;
+  height: 340px;
+  position: relative;
 
-    &::before {
-        content: "";
-        position: absolute;
-        top: 40px;
-        left: 50px;
-        width: 1px;
-        height: 262px;
-        background-color: var(--p-color);
-        }
-    &::after {
-        content: "";
-        position: absolute;
-        top: 210px;
-        left: 30px;
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background-color: var(--btn-color);
-        }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 1px;
+    height: 262px;
+    background-color: var(--p-color);
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--btn-color);
+  }
 
-    h2 {
-        text-align: center;
-        color: #fff;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        font-size: 36px;
+  h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 36px;
+  }
+  .container {
+    img {
+      width: 200px;
+      background-color: transparent;
+      margin-left: 50px;
     }
-    .container {
-        
-        img {
-            width: 100%;
-            background-color: transparent;
-        }
-
-    
-    }
+  }
 }

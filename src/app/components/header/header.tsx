@@ -3,7 +3,6 @@ import "./header.scss";
 import { useState } from "react";
 import mouse from "../../../shared/assets/images/mouse.webp";
 
-
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -30,33 +29,40 @@ export default function Header() {
         <main>
           <div className="container">
             <div className="content-txt">
-                  <h2>Forget your<br/>firepower</h2>
+              <h2>
+                Forget your
+                <br />
+                firepower
+              </h2>
 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Soluta eum, ullam Lorem ipsum dolor sit amet.
-                    </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                eum, ullam Lorem ipsum dolor sit amet.
+              </p>
 
-                    <span className="txt-p"> voluptatibus atque illum 
-                    voluptate obcaecati corporis Praesentium,<br/> magni est. Dignissimos, nemo!
-                    Lorem ipsum, dolor amet consectetur adipisicing <br/>elit. 
-                    Temporibus distinctio quaerat quas
-                    Lorem ipsum dolor sit amet consectetur<br/> adipisicing elit. 
-                    Est libero deserunt eveniet quia molestiae 
-                    consequuntur, obca
-                    </span>
+              <span className="txt-p">
+                {" "}
+                voluptatibus atque illum voluptate obcaecati corporis
+                Praesentium,
+                <br /> magni est. Dignissimos, nemo! Lorem ipsum, dolor amet
+                consectetur adipisicing <br />
+                elit. Temporibus distinctio quaerat quas Lorem ipsum dolor sit
+                amet consectetur
+                <br /> adipisicing elit. Est libero deserunt eveniet quia
+                molestiae consequuntur, obca
+              </span>
 
-                  <button className="btn">PLAY ADVANCED</button>
+              <button className="btn">PLAY ADVANCED</button>
             </div>
-            
+
             <div className="content-img">
               <img src={mouse} alt="" />
-              <h3 className="cont">01/<span>05</span> </h3>
-              </div>
-
+              <h3 className="cont">
+                01/<span>05</span>{" "}
+              </h3>
+            </div>
           </div>
         </main>
-
-
       </div>
     </header>
   );
